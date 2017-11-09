@@ -1,0 +1,43 @@
+/*some styles for mp3 player*/
+
+
+/*reset styles*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*styles for the main block*/
+#wrapper{
+    overflow-y: scroll;
+    border: 6px groove silver;
+    border-radius: 15px;
+    width: 30%;
+    margin-left: calc(100%/3);
+    margin-top: 100px;
+    height: 400px;
+}
+
+/*styles for the input type file*/
+#addSong{
+    display: block;
+    margin-left: 4px;
+}
+
+/*styles for the list of the songs*/
+#songList{
+    margin-top: 4px;    
+}
+
+/*style for each li from the list of the songs*/
+.song{
+    text-decoration: none;
+}
+
+/*style for link in each li*/
+.link{
+    color: gray;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
